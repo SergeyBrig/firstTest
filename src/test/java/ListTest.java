@@ -31,7 +31,7 @@ public class ListTest {
     }
     @Test
     public void testSearches() {
-        driver.get("https://www.webstaurantstore.com"); //https://www.webstaurantstore.com/search/table.html
+        driver.get("https://www.webstaurantstore.com");
 
         driver.findElement(By.id("searchval")).sendKeys("table\n");
 
